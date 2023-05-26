@@ -1,0 +1,18 @@
+{
+  "chrome": {
+    "options": [
+      "--kiosk",
+      "--incognito"
+    ],
+    "capabilities": {
+      "platformName": "Mac",
+      "browserVersion": "104"
+    },
+    "extensions": []
+  },
+  "safari": {
+    "capabilities": {
+      "safari:automaticInspection": true
+    }
+  }
+}

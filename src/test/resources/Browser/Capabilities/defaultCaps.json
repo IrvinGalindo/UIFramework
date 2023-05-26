@@ -1,0 +1,12 @@
+{
+  "chrome": {
+    "options": [
+      "--remote-allow-origins=*"
+    ],
+    "capabilities": {
+      "platformName": "Mac",
+      "browserVersion": "104"
+    },
+    "extensions": []
+  }
+}
