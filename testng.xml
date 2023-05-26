@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+    <!--test name="Test Google Search phase 1">
+        <classes>
+            <class name="org.automation.google.GoogleSearchTests"/>
+        </classes>
+    </test-->
+    <!--test name="Test Google Search phase 2" thread-count="1">
+        <parameter name="browser" value="safari"/>
+        <classes>
+            <class name="org.automation.google.GoogleSearchTests"/>
+        </classes>
+    </test-->
+    <test name="Test Google Search phase 1">
+        <parameter name="browserName" value="Chrome"/>
+        <parameter name="capabilities" value="GoogleTestCaps.json"/>
+        <classes>
+            <class name="org.automation.google.GoogleSearchTests">
+            </class>
+        </classes>
+    </test>
+</suite>
